@@ -4,6 +4,6 @@ node {
 	
 	
 	stage 'Ejecutor'
-		sh "./Build-Scripts/deploy.sh"
+		sh "${WORKSPACE}/Build-Scripts/deploy.sh"
 
 }
