@@ -6,6 +6,6 @@ node {
 	stage 'Ejecutor'
 		sh "chmod +x ${WORKSPACE}/Build-Scripts/deploy.sh"
 		sh "cd ${WORKSPACE}"
-		sh "${WORKSPACE}/Build-Scripts/deploy.sh"
+		sh "${WORKSPACE}/Build-Scripts/deploy.sh -x"
 
 }
